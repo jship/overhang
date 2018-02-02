@@ -13,8 +13,8 @@ extra-source-files:
 - package.yaml
 - README.md
 - stack.yaml
-ghc-options: -Wall -Werror
+ghc-options: -Wall
 library:
   dependencies:
-  - base
+  - base >= 4.10 && < 5
   source-dirs: library
